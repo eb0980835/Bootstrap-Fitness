@@ -1,0 +1,100 @@
+/* Variables */
+:root {
+    --yellow: rgb(250, 204, 87);
+    --lightorange:  rgb(255, 196, 157);
+}
+
+/* Modified Bootstrap properties */
+
+#carouselExampleAutoplaying {
+    margin: 5% 15%;
+}
+
+.card {
+    margin: 5% 10%;
+    background-color: var(--lightorange);
+}
+
+.form-control, h3, .form-select, .form-label {
+    margin: 15px;
+}
+
+th {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+td {
+    text-align: left;
+    padding: 5px;
+    font-size: 20px;
+}
+
+td p {
+    font-size: 10px;
+    color: grey;
+}
+
+/* Other */
+
+header {
+    padding: 5%;
+    background-color: var(--yellow);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 1em;
+    text-align: center;
+    margin: 5px;
+}
+
+iframe {
+    margin: 15px 30px;
+}
+
+/* Classes/IDs */
+
+.float {
+    float: left;
+    margin: 0px 5%;
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#myForm {
+    background-color: var(--lightorange);
+    margin: 10px;
+}
+
+/* Fonts */
+
+.emblema-one-regular {
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.keania-one-regular {
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
